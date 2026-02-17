@@ -1,0 +1,19 @@
+services:
+  agent-langgraph:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: agent-langgraph
+    ports:
+      - "${HTTP_PORT:-9200}:${HTTP_PORT:-9200}"
+    env_file:
+      - .env
+    environment:
+      - HTTP_PORT=${HTTP_PORT:-9200}
+    restart: unless-stopped
+    networks:
+      - agent-langgraph-network
+
+networks:
+  agent-langgraph-network:
+    driver: bridge

@@ -17,8 +17,9 @@ Este projeto está sendo criado para fins de aprendizado com o framework LangGra
 
 ## Todo
 
+- [X] Deploy via Docker
 - [ ] Uso de Rag
 - [ ] Novos skills
 - [ ] Uso via cli
 - [ ] Uso via web
-- [ ] Deploy via Docker
+
