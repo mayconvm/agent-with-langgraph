@@ -18,7 +18,12 @@ Este projeto está sendo criado para fins de aprendizado com o framework LangGra
 ## Todo
 
 - [X] Deploy via Docker
-- [ ] Uso via cli
+- [X] Uso via cli
+- [ ] Memoria da conversa
+    - [X] Short-term
+    - [X] Long-term
+    - [ ] Mongo
 - [ ] Uso via web
+- [ ] Context (https://docs.langchain.com/oss/python/concepts/context)
 - [ ] Uso de Rag
 - [ ] Novos skills
