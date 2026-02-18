@@ -19,11 +19,8 @@ Este projeto está sendo criado para fins de aprendizado com o framework LangGra
 
 - [X] Deploy via Docker
 - [X] Uso via cli
-- [ ] Memoria da conversa
+- [ ] Memória
     - [X] Short-term
     - [X] Long-term
     - [ ] Mongo
-- [ ] Uso via web
-- [ ] Context (https://docs.langchain.com/oss/python/concepts/context)
-- [ ] Uso de Rag
-- [ ] Novos skills
+- [ ] Implementar A2A
